@@ -1,0 +1,9 @@
+- hosts: myhost
+  tasks:
+    - import_role: name=myrole1
+      vars:
+        foo1: no
+        foo2: no
+    - import_role: name=myrole1
+      vars:
+        foo1: yes

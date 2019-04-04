@@ -1,0 +1,2 @@
+- debug: var=foo1
+- debug: var=foo2
